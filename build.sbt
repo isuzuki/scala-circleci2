@@ -13,4 +13,8 @@ scalacOptions ++= Seq(
   "-target:jvm-1.8"
 )
 
+libraryDependencies ++= Seq(
+  "org.scalatest" %% "scalatest" % "3.0.4" % "test"
+)
+
 test in assembly := {}
