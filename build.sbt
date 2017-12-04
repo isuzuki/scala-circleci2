@@ -12,3 +12,5 @@ scalacOptions ++= Seq(
   "-feature",
   "-target:jvm-1.8"
 )
+
+test in assembly := {}
